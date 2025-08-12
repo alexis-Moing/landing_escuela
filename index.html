@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESCUELA DE EYT</title>
+    <link rel="stylesheet" href="index.css">   
 </head>
 <body>
-    
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#carreras" class="nav-link">Carreras</a></li>
+                <li class="nav-item"><a href="#admisiones" class="nav-link">Admisiones</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section-inicio">
+        <h1>Facultad de Ingeniería</h1>
+        <p>Formando ingenieros líderes para el futuro.</p>
+        <a href="#admisiones" class="cta-button">Solicita Información</a>
+    </section>
+
+    <section id="carreras" class="section-carreras">
+        <h2>Nuestras Carreras</h2>
+        <ul>
+            <li>Ingeniería Civil</li>
+            <li>Ingeniería Electrónica</li>
+            <li>Ingeniería Industrial</li>
+            <li>Ingeniería en Sistemas</li>
+        </ul>
+    </section>
+
+    <section id="admisiones" class="section-admisiones">
+        <h2>Proceso de Admisión</h2>
+        <p>Conoce los requisitos y fechas importantes para postularte a la Facultad de Ingeniería.</p>
+        <a href="#contacto">Contáctanos para más información</a>
+    </section>
+
+    <section id="contacto" class="section-contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 Facultad de Ingeniería. Todos los derechos reservados.</p>
+    </footer>
+            
 </body>
 </html>
